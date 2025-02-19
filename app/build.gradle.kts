@@ -70,6 +70,16 @@ dependencies {
     implementation(libs.room.ktx)
     ksp(libs.room.ksp)
 
+    // retrofit
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.moshi)
+    implementation(libs.moshi)
+    implementation(libs.moshi.kotlin)
+
+    // coil
+    implementation(libs.coil)
+
+    testImplementation(libs.mockk)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
